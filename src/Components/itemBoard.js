@@ -14,7 +14,7 @@ class Item extends Component {
     render() {
         return (
             <div className='item'>
-            <img src={this.state.image} onClick = {this.click}/>
+            <img src={this.state.image} onClick = {this.click} alt="Click Me"/>
             </div>
         );
     }
